@@ -29,4 +29,4 @@ Most LSTM models provided on the Internet produce only one data value or don not
     batch_size : batch size of LSTM(RNN)
 
 
-The user simply needs to insert a dataset to use this model. This model learns data, predicts and outputs N data from the last datum of the dataset.
+The user simply needs to insert a dataset to use this model. This model learns data, predicts and outputs N data from the last datum of the dataset. The data I used in this model is daily data extracted from the sun's corona hole area. The model was created to predict the area over the next seven days by learning the area in the middle of the corona hole for 10 years.
