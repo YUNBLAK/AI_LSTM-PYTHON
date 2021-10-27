@@ -16,7 +16,7 @@ Most LSTM models provided on the Internet produce only one data value or don not
         df = csvloader("NEWCH.csv")
 
         # NEXT FUTURE n DATA PREDICTION
-        # IF DAYS is 7, IT MEANS THAT 7 OUTPUT WILL COME OUT
+        # IF DAYS is 7, IT MEANS THAT 7 OUTPUTS WILL COME OUT
         days = 7
         label = "middle"
         batch_size = 120
