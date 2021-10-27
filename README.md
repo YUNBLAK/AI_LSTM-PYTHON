@@ -24,11 +24,10 @@ Most LSTM models provided on the Internet produce only one data value or don not
         print("NEXT 7 DATA ARE:", arr)
         
 ### In the main method, there are some variables
-days : It means the number of predicted data we want to get
 
-label : Feature of datasets
-
-batch_size : batch size of LSTM(RNN)
+    days : It means the number of predicted data we want to get
+    label : Feature of datasets
+    batch_size : batch size of LSTM(RNN)
 
 
 The user simply needs to insert a dataset to use this model. This model learns data, predicts and outputs N data from the last datum of the dataset.
